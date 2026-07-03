@@ -4,6 +4,10 @@ PBG Viewer is a full-stack MERN application built to showcase modern frontend UI
 
 The current version includes a web-based document workspace interface along with a user authentication system that allows users to create accounts and securely sign in. The project has been designed with future expansion in mind, making it easy to integrate additional document management and AI-powered capabilities.
 
+## Live Demo
+
+[Live Demo](https://pbg-viewer.vercel.app)
+
 ## Purpose
 
 The primary goal of this project is to demonstrate practical development skills across both frontend and backend technologies, including:
@@ -64,6 +68,6 @@ Planned additions include:
 ```text
 pbg-viewer/
 │
-├── client/      # React frontend
-├── server/      # Express backend
+├── frontend/      # React frontend
+├── backend/      # Express backend
 └── README.md
