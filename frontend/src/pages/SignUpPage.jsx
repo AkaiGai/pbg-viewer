@@ -14,7 +14,7 @@ const SignUpPage = () => {
   });
   const navigate = useNavigate();
 
-  const URL = 'http://localhost:5000/';
+  const URL = import.meta.env.VITE_API_URL;
   const signup = 'api/auth/signup';
   const iconStyle = 'text-xl text-secondary-900';
 

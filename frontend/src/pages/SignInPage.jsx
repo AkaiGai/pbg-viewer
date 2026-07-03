@@ -18,7 +18,7 @@ const SignInPage = () => {
 
   const { setUser } = useContext(UserContext);
 
-  const URL = 'http://localhost:5000/';
+  const URL = import.meta.env.VITE_API_URL;
   const login = 'api/auth/login';
   const iconStyle = 'text-xl text-secondary-900';
 
